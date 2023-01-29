@@ -114,12 +114,4 @@ Setting up the hardware
 
 The setup is very simple. Just connect your 3v and GND pins to the corresponding pins on the Si5351, then connect pin 21 to `SDA` and pin 22 to `SCL`, and solder a wire to the corresponding channel output (in this example channel 0), which you can use to test the clock signal or connect it to another component such as a DAC, which needs a reference clock.
 
-Here is the signal as it appears on an oscilloscope.
-
-.. thumbnail:: /images/clock_example/PXL_20230129_042037763.jpg
-
-And the physical wiring.
-
-.. thumbnail:: /images/clock_example/PXL_20230129_041904744.jpg
-
 If you have any issues, please file them on the Github repo and thanks for reading!
